@@ -1,0 +1,13 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    background-color: antiquewhite;
+    color: firebrick;
+    margin: 50px;
+    padding: 20px;
+    border: solid black;
+    text-align: center;
+}
