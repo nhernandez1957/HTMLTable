@@ -4,10 +4,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template("index.html")
-
-@app.route('/lists')
-def render_lists():
     users = [
         {'first_name' : 'Michael', 'last_name' : 'Choi', 'full_name' : 'Michael Choi'},
         {'first_name' : 'John', 'last_name' : 'Supsupin', 'full_name' : 'John Supsupin'},
